@@ -1,9 +1,10 @@
-body{
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -12,69 +13,81 @@ font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     padding: 18px 38px;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
+
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 150px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     justify-content: center;
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 0px;
 }
-.banner-hardy{
+
+.banner-hardy {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 0px;
 }
-.banner-p{
-    color:#757575;
+
+.banner-p {
+    color: #757575;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
+    max-width: 585px;
 }
-.btn-contact{
+
+.btn-contact {
     border-radius: 5px;
     background-color: #FFFFFF;
     color: #FD6E0A;
@@ -84,11 +97,32 @@ nav a{
     border-color: #FD6E0A;
 }
 
-.banner profile-pic{
-    width: 500px;
-    height: 600px;
+.banner profile-pic {
+    max-width: 500px;
+    max-height: 600px;
 }
 
-.banner-content{
-    
+.banner-content {}
+
+/* about-section */
+
+.about {
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin: 130px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
