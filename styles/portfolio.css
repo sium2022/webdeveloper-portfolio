@@ -44,18 +44,35 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-hardy{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 .banner-p{
     color:#757575;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .btn-contact{
     border-radius: 5px;
