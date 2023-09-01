@@ -188,7 +188,9 @@ main {
 }
 
 .resume-container {
-    /* display: flex; */
+    display: flex;
+    gap: 50px;
+    /* text-align: left; */
 }
 
 .resume-col {
@@ -219,4 +221,9 @@ main {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 30px;
 }
