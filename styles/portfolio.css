@@ -158,11 +158,11 @@ main {
 .skill-container {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .skill {
     width: 267px;
-    height: 377px;
     border-radius: 5px;
     background: #FFF;
     padding: 30px;
@@ -176,7 +176,47 @@ main {
 }
 
 .skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* resume-section */
+
+#resume-section {
+    margin-top: 130px;
+}
+
+.resume-container {
+    /* display: flex; */
+}
+
+.resume-col {
+    /* margin: 100px 200px 10px; */
+}
+
+.resume-col-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.resume-item {}
+
+.resume-title {
     color:#757575;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-info {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-descriptiom {
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
